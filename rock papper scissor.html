@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissor</title>
+</head>
+<body>
+    <p>HERE IS A SIMPLE ROCK PAPER SCISSORS GAME USING HTML,CSS AND JAVASCRIPT</p>
+    <button onclick="
+         const randomNumber=Math.random();
+         let computerMove='';
+         if(randomNumber>=0 &&randomNumber<=1/3){
+            computerMove='rock';
+            
+         }
+         else if(randomNumber>=1/3 &&randomNumber<=2/3){
+            computerMove='paper';
+         }
+         else if(randomNumber>=2/3&&randomNumber<=1){
+            computerMove='scissor';
+         }
+         let result='';
+         if(computerMove==='rock'){
+            result='tie';
+            
+         }
+         else if(computerMove==='paper'){
+            result='lose';
+         }
+         else if(computerMove==='scissor'){
+            result='win';
+         }
+         alert(`you picked rock,computer picked ${computerMove} and the result is ${result}`);
+        " class="rock">rock</button>
+    <button onclick="
+         const randomNumber=Math.random();
+         let computerMove='';
+         if(randomNumber>=0 &&randomNumber<=1/3){
+            computerMove='rock';
+            
+         }
+         else if(randomNumber>=1/3 &&randomNumber<=2/3){
+            computerMove='paper';
+         }
+         else if(randomNumber>=2/3&&randomNumber<=1){
+            computerMove='scissor';
+         }
+         let result='';
+         if(computerMove==='rock'){
+            result='win';
+            
+         }
+         else if(computerMove==='paper'){
+            result='tie';
+         }
+         else if(computerMove==='scissor'){
+            result='lose';
+         }
+         alert(`you picked paper,computer picked ${computerMove} and the result is ${result}`);
+         
+     
+    
+    " class="paper">paper</button>
+    <button onclick="
+         const randomNumber=Math.random();
+         let computerMove='';
+         if(randomNumber>=0 &&randomNumber<=1/3){
+            computerMove='rock';
+            
+         }
+         else if(randomNumber>=1/3 &&randomNumber<=2/3){
+            computerMove='paper';
+         }
+         else if(randomNumber>=2/3&&randomNumber<=1){
+            computerMove='scissor';
+         }
+         let result='';
+         if(computerMove==='rock'){
+            result='lose';
+            
+         }
+         else if(computerMove==='paper'){
+            result='win';
+         }
+         else if(computerMove==='scissor'){
+            result='tie';
+         }
+         alert(`you picked scissors,computer picked ${computerMove} and the result is ${result}`);
+    
+    " class="scissor">scissors</button>
+    <style>
+        *{
+            background-image:url(4521145.jpg);
+            
+
+        }
+        .rock{
+            background-color: rgb(223, 102, 102);
+            color:rgb(66, 21, 66);
+            padding: 50px ;
+            margin: 150px;
+            font-size: 30px;
+            align-items: center;
+        }
+        .paper{
+            background-color:rgb(127, 211, 197);
+            color: violet;
+            padding: 50px ;
+            margin: 150px;
+            font-size: 30px;
+            align-items: center;
+        }
+        .scissor{
+            background-color: gray;
+            color:blueviolet;
+            font-size: 30px;
+            padding: 50px ;
+            margin: 150px;
+            align-items: center;
+            
+
+        }
+        p{
+            box-sizing: border-box;
+            color: red;
+            font-size:100px ;
+            background-color: rgb(46, 30, 102);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background: 50px;
+        }
+
+
+
+
+    </style>
+</body>
+</html>
