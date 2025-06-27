@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.015);
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(76, 83, 86, 0.358);
+
+}
+header .container{
+    display: flex;
+    justify-content:space-between;
+    
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 2px;
+    color: rgb(229, 222, 213) ;
+    font-size: 14px;
+    
+}
+
+
+
+.left-section p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: rgba(206, 243, 243, 0.841);
+    margin-top: 18px;
+    line-height: 28px;
+}
+.banner-container{
+    
+    background-image: url("images/wolf-zimmermann-6sf5rf8QYFE-unsplash.jpg");
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    background-attachment: fixed;
+    /* background-position: center; */
+    
+    
+
+    
+}
+.left-section h1{
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(230, 239, 237, 0.83);
+}
+.banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+.left-section button{
+    color: aliceblue;
+    border: none;
+    background-color: rgba(159, 204, 243, 0.742);
+    border-radius: 6px;
+    padding: 12px 50px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:0 4px 5px rgba(25, 25, 25, 0.638) ;
+}
+.right-section{
+    width: 400px;
+    background-color: rgba(138, 189, 233, 0.51);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 5px 6px rgb(11, 11, 11);
+}
+.right-section h1{
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom:30px;
+    color: rgb(232, 237, 246);
+
+}
+.input-group{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.input-group label{
+    font-size: 14px;
+    color: rgb(118, 119, 119); 
+    position: absolute;
+    top: 10px;
+    padding-left: 2px;
+    transition: 0.5s;
+
+}
+.input-group input{
+    padding: 7px;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    border-bottom: 1px solid rgb(11, 10, 10);
+    border-radius: 7px;
+}
+.input-group input:focus ~ label,
+.input-group input:valid~ label{
+    color: rgb(35, 36, 36);
+    top: -10px;
+    font-size: 12px;
+}
+.input-group input:focus ,
+.input-group input:valid{
+    border-color: rgba(120, 124, 124, 0.963);
+}
+.submit-button{
+    background-color:rgb(159, 204, 243) ;
+    color: rgb(82, 85, 87);
+    font-size: 16px;
+    border: none;
+    padding: 10px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(11, 11, 11, 0.827);
+}
+
+.submit-section{
+    text-align: center;
+}
+.submit-button:hover{
+    box-shadow: 0 4px 8px rgba(35, 35, 35, 0.926);
+}
+.login-button:hover{
+    box-shadow: 0 3px 7px rgba(17, 17, 17, 0.833);
+}
+.section-two{
+
+   display: flex;
+   justify-content:space-evenly;
+   height: 90vh;
+   align-items: center;
+   background-image: url("images/wolf-zimmermann-6sf5rf8QYFE-unsplash.jpg");
+}
+.image-container{
+    width:100% ;
+    height:450px ;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+    
+}
+.card-container{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 25px rgba(50, 49, 49, 0.789);
+    overflow: hidden;
+    text-align: center;
+}
+.card-container h1{
+    color: rgb(236, 243, 243);
+}
+.image-container img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+footer{
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-size: 14px;
+}
+footer span{
+    color: rgb(104, 135, 237);
+
+}
+.fa-snowflake{
+    color: aliceblue;
+    font-size: 27px;
+    margin-left: 9px;
+}
